@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>On-Scroll Image Layout Animations | Codrops</title>
+	<meta name="description" content="An exploration of different scroll based layout switch animations." />
+	<meta name="keywords" content="" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/cch1nog.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
+	<link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/alk-rex-bold/css/alk-rex-bold.min.css">
+</head>
+
+<body class="loading">
+	<main>
+		<section class="project project--intro">
+			<h2 class="project__title">
+				<span class="project__title-line">ჩვენც</span>
+				<span class="project__title-line">გავფრინდებით...</span>
+			</h2>
+			<span class="project__label project__label--mission">#კიდევერთირამ</span>
+		</section>
+		<div class="gallery-wrap">
+			<div class="gallery gallery--row" id="gallery-1">
+				<div class="gallery__item gallery__item--s" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item gallery__item--m" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item gallery__item--l" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item gallery__item--xl gallery__item--center"
+					style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item gallery__item--l" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item gallery__item--m" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item gallery__item--s" style="background-image:url(img/5.jpg)"></div>
+				<div class="caption">
+					ფსიქოლოგები ამბობენ:-საყვარელი ფილმების ყურება დადებითად მოქმედებს გონების მდგომარეობაზე.ამშვიდებს,
+					აუმჯობესებს განწყობას. კარგი ფილმი ყოველთვის დამაფიქრებელია. ის კვებავს ადამიანს სულიერად,თუმცა
+					მუსიკის გარეშე ყოველივე ზემოთ თქმული, წარმოუდგენელი იქნებოდა.
+				</div>
+			</div>
+		</div>
+		<section class="project project--details project--left">
+			<span class="project__label project__label--default">ჩვენი მიზანია!</span>
+			<p>ჩვენი პროექტის უმთავრესი მიზანია, დაგანახოთ, თუ რაოდენ დიდი მნიშვნელობა აქვს მუსიკას ფილმის წარმატებაში.
+				იგი ადამიანში იწვევს უამრავ ემოციას. მას შეუძლია მაყურებელი შეაშინოს, დაამშვიდოს, აყვიროს, გაუღვივოს
+				სითბოსა და სიძულვილის გრძნობა. ამავე დროს მუსიკას შეუძლია, თავგზა აგვიბნიოს. თუკი მისი მოსმენით
+				გამოწვეული მოლოდინი ფილმის მსვლელობისას არ გამართლდება ან, პირიქით-წინასწარ გაამჟღავნოს, როგორ
+				განვითარდება კონოისტორია ზოგ შემთხვევაში.სპეციალურად ფილმისთვის დაწერილ საუნდტრეკს უფრო მეტი წარმატება
+				ჰქონია ვიდრე სურათს და მისი დახმარებით გამხდარა პოპულარული. ჩვენ მაქსიმალურად შევეცდებით შევეხოთ როგორც
+				ქართულ, ასევე უცხოურ კონოკლასიკას და განვიხილოთ, გავაანალიზოთ და სასიამოვნო განწყობა შეგიქმნათ.</p>
+		</section>
+		<div class="gallery-wrap gallery-wrap--large">
+			<div class="gallery gallery--grid gallery--breakout" id="gallery-2">
+				<div class="gallery__item gallery__item-cut">
+					<div class="gallery__item-inner" style="background-image:url(img/7.jpg)"></div>
+				</div>
+				<div class="gallery__item gallery__item-cut">
+					<div class="gallery__item-inner" style="background-image:url(img/8.jpg)"></div>
+				</div>
+				<div class="gallery__item gallery__item-cut">
+					<div class="gallery__item-inner" style="background-image:url(img/9.jpg)"></div>
+				</div>
+				<div class="gallery__item gallery__item-cut">
+					<div class="gallery__item-inner" style="background-image:url(img/10.jpg)"></div>
+				</div>
+				<div class="gallery__item gallery__item-cut">
+					<div class="gallery__item-inner" style="background-image:url(img/11.jpg)"></div>
+				</div>
+				<div class="gallery__item gallery__item-cut">
+					<div class="gallery__item-inner" style="background-image:url(img/12.jpg)"></div>
+				</div>
+				<div class="gallery__item gallery__item-cut">
+					<div class="gallery__item-inner" style="background-image:url(img/17.jpg)"></div>
+				</div>
+				<div class="gallery__item gallery__item-cut">
+					<div class="gallery__item-inner" style="background-image:url(img/16.jpg)"></div>
+				</div>
+				<div class="gallery__item gallery__item-cut">
+					<div class="gallery__item-inner" style="background-image:url(img/19.jpg)"></div>
+				</div>
+				<div class="caption">
+					<p>მხატვრული ფილმი „შერეკილები“ რეჟისორმა ელდარ შენგელაიამ 1973 წელს რეზო გაბრიაძის სცენარით
+						გადაიღო. ფილმი გამოირჩევა ფრაზებით, რაც მაყურებელთა ნაწილმა ზეპირად იცის და ყოველდღიურ
+						მეტყველებაშიც იყენებს. კითხვარში წარმოდგენილია კადრები ფილმის ციფრულად რესტავრირებული ვერსიიდან.
+						რესტავრაცია 2019 წელს ეროვნული არქივისა და საქართველოს ეროვნული კინოცენტრის თანამშრომლობით
+						განხორციელდა. შეავსეთ კითხვარი და გამოიცანით ფრაზები, რომელსაც ფილმის გმირები ამბობენ. გისურვებთ
+						წარმატებას!</p>
+				</div>
+			</div>
+		</div>
+		<section class="project project--details project--right">
+			<span class="project__label project__label--default">მხიარული რომანის ისტორია</span>
+			<p>1972 წელს გა­და­ი­ღეს, რე­ჟი­სო­რი ლე­ვან ხო­ტი­ვა­რია. ინ­კა­სა­ტორ იპო­ლი­ტეს ქა­ლიშ­ვი­ლი სტუ­დენტ
+				და­თოს შე­უყ­ვარ­დე­ბა. იპო­ლი­ტეს ყველ­გან თავ­დამ­სხმე­ლე­ბი ელან­დე­ბა. ერთი გა­უ­გებ­რო­ბის გამო
+				ყვე­ლა ყა­ჩა­ღი ჰგო­ნია. დათო და ეკა ოჯა­ხის და­უ­კი­თხა­ვად და­ქორ­წინ­დე­ბი­ან. და­თოს სი­ძედ ხილ­ვა
+				იპო­ლი­ტეს წყო­ბი­დან გა­მო­იყ­ვანს, მაგ­რამ მერე ყვე­ლა­ფე­რი გა­ირ­კვე­ვა და ბედ­ნი­ე­რი წყვი­ლი
+				სა­ქორ­წი­ნო მოგ­ზა­უ­რო­ბა­ში გა­ემ­გზავ­რე­ბა.</p>
+		</section>
+		<div class="gallery-wrap">
+			<div class="gallery gallery--grid10" id="gallery-3">
+				<div class="gallery__item pos-1" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item pos-2" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item pos-3" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item pos-4" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item pos-5" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item pos-6" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item pos-7" style="background-image:url(img/7.jpg)"></div>
+				<div class="gallery__item pos-8" style="background-image:url(img/8.jpg)"></div>
+				<div class="gallery__item pos-9" style="background-image:url(img/9.jpg)"></div>
+				<div class="gallery__item pos-10" style="background-image:url(img/10.jpg)"></div>
+				<div class="gallery__item pos-11" style="background-image:url(img/11.jpg)"></div>
+				<div class="gallery__item pos-12" style="background-image:url(img/12.jpg)"></div>
+				<div class="gallery__item pos-13" style="background-image:url(img/13.jpg)"></div>
+				<div class="gallery__item pos-14" style="background-image:url(img/14.jpg)"></div>
+				<div class="gallery__item pos-15" style="background-image:url(img/15.jpg)"></div>
+				<div class="gallery__item pos-16" style="background-image:url(img/16.jpg)"></div>
+				<div class="caption">კინომუსიკა</div>
+			</div>
+		</div>
+		<section class="project project--details">
+			<span class="project__label project__label--default">მუსიკა ყველაფერშია!t</span>
+			<p>მუსიკა სამყაროს აძლევს სულს ,გონებას ფრთებს ,ჩვენს ფანტაზიებს ფრენის საშვალებას ცხოვრებას კი
+				ყველაფერს.ჯერ ხიდევ საუკუნების წინ ამბობდა ძველი ბერძენი ფილოსოფოსი პლატონი .მუსიკა ის უნივერსალური ენა
+				რომლის გაგებაც თარგმნის გარეშე შეუძლია ყველა დედამიწელს.ის ადამიამის სულთა იდუმალი გასაღებია სადაც
+				სიტყვები უძლურია მუსიკალური ბგერები ამბობენ სათქმელს. სრულყოფილად გადმოსცემენ გრძნობის სიღრმეს
+				,სიმძაფრეს,ემოციას ,გულწრფელობას .ჭეშმარიტი მუსიკის გაგებას სპეციალური განათლება არ სჭირდება ღვთაებრივი
+				ჰანგები თავად იკვლევენ გზას მსმენელის გულისაკენ ახდენენ მასზე წარუშლელ შთაბეჭდილებას ცვლიან და ამაღლებენ
+				განწყობას რაც ადამიანის ქცევის უმთავრესი მოტივატორია.მრავალწლიანმა კვლევებმა დადგინა რომ სწორად შერჩეული
+				მუსიკა მკურნალია არასწორად შერჩეული კი ანგრევს ადამიანის სულიერ მდგომარეობას.ცნობილი ფაქტია ჩინეთში ცუდი
+				მუსიკის ავტორს სიკვდილით სჯიდნენ დისჰარმონიული მუსიკის შექმნისთვის.
+				ქართველმა კაცმა დასაბამიდან შეისისხლხორცა სიმღერა,ჭირში თუ ლხინში ოდითგან მღერის ქართველი უმღერის
+				სიყვარულს სიცოცხლეს შემოქმედს და სიკვდილსაც სიმღერით ეგებება .
+				თუ ფრენას ვერ მასწავლი სიმღერა მასწავლე.</p>
+		</section>
+		<div class="gallery-wrap gallery-wrap--dense">
+			<div class="gallery gallery--stack gallery--stack-inverse gallery--stack-dark" id="gallery-4">
+				<div class="gallery__item" style="background-image:url(img/20.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/21.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/22.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/23.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/24.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/25.jpg)"></div>
+				<div class="caption">
+					<p>"ტალღების აზროვნების ძალით გავრცელება სასწაული არ არის. ეს ხრიკია, მაგრამ მარტოხელა დედა, რომელიც
+						მუშაობს სამ სამუშაოზე ოთხი შვილის გამოსაკვებად, სასწაულია. ხალხს ხშირად ავიწყდება, რომ ძალა
+						საკუთარ თავში იმალება."</p>
+				</div>
+			</div>
+		</div>
+		<div class="gallery-wrap gallery-wrap--dense">
+			<div class="gallery gallery--stack gallery--stack-glass" id="gallery-5">
+				<div class="gallery__item" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="caption">
+					<p>"მა­გის­თა­ნა წყნა­რი, პა­ტი­ო­სა­ნი, თე­რა­პევ­ტი, ოჯა­ხიშ­ვი­ლი ჩვენს ქა­ლაქ­ში დი­მიტ­რია გე­ლო­ვა­ნი", "ცხვი­რი ჰგავს, გავს, ე.ი. გავს", "5 კილო, შავი-შავი", "მე და მამა ვმუ­შა­ობთ", "გვე­ლი გა­მიზ­რდია უბე­ში, გვე­ლი", "ვა­ლო­დია ვარ ჯინჭრა­ძე, არ გახ­სოვს? მარ­ცხნივ ვი­ჯე­ქი რა­დი­ა­ტორ­თან", ბა­ტო­ნი ბონა: "მე რომ მოვ­კვდე­ბი, ჩემი შვი­ლე­ბი შიბ­ლე­ტებს გამ­ხდი­ან, გა­ყი­დი­ან და ვოლ­გას იყი­დი­ან", პი­პი­ნია ერის­თა­ვი: "და და­ა­აა... ვოლ­გა, ვოლ­გა, მატ რად­ნა­ია"...</p>
+				</div>
+			</div>
+		</div>
+		<div class="gallery-wrap">
+			<div class="gallery gallery--gridtiny" id="gallery-7">
+				<div class="gallery__item" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/7.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/8.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/11.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/14.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/17.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/7.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/8.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/11.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/14.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/17.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/7.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/8.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/11.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/14.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/17.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/7.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/8.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/11.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/14.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/17.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/7.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/8.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/11.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/14.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/17.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/7.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/8.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/11.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/14.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/17.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/1.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/2.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/7.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/8.jpg)"></div>
+				<div class="caption">#კიდევერთირამ</div>
+			</div>
+		</div>
+		<div class="gallery-wrap">
+			<div class="gallery gallery--bento" id="gallery-8">
+				<div class="gallery__item" style="background-image:url(img/4.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/3.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/12.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/9.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/5.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/7.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/8.jpg)"></div>
+				<div class="gallery__item" style="background-image:url(img/6.jpg)"></div>
+				<div class="caption">ჩვენც გავფრინდებით...</div>
+			</div>
+		</div>
+		<div class="gallery-wrap">
+			<div class="gallery gallery--one" id="gallery-9">
+				<div class="gallery__item" style="background-image:url(img/10.jpg)"></div>
+				<div class="caption">დამზადებულია გაგა ბერიძის მიერ.<br> ფოტო მასალაზე იმუშავა ნანა ბახტურიძემ.</div>
+			</div>
+		</div>
+		<section class="project project--details project--left">
+		</section>
+	</main>
+	<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+	<script src="js/gsap.min.js"></script>
+	<script src="js/Flip.min.js"></script>
+	<script src="js/ScrollTrigger.min.js"></script>
+	<script src="js/lenis.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script type="module" src="js/index.js"></script>
+</body>
+
+</html>
